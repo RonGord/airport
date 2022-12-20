@@ -16,7 +16,7 @@ typedef struct {
 int      initAirportManager(AirportManager* pAirportManager);
 void     printAirportManager(const AirportManager* pAirportManager);
 void     freeAirportManager(AirportManager* pAirportManager);
-
+int checkContry(char* name);
 int      addAirport(AirportManager* pAirportManager);
 Airport* findAirportByIATA(const AirportManager* pAirportManager, const char code[IATA_CODE_SIZE + 1]);
 
